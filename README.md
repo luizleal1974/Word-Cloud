@@ -13,6 +13,10 @@ py_install("wordcloud")
 
 # 1. R
 
+<p align="center"><img src="/Files/word_cloud_R.png" alt="Drawing"/></p>
+
+<div align="center">Figura 1. Nuvem de palavras no R.</div>
+
 </br>
 
 # 2. Python
