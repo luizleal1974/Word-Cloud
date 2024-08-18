@@ -27,11 +27,9 @@ devtools::source_url(path)
 <div align="center">Figura 1. Nuvem de palavras no R.</div>
 
 
-<p align="justify"></p>
+</br>
 
-<p align="justify"></p>
-
-## Referências
+### Referências
 
 <p align="justify">
 <ol>
