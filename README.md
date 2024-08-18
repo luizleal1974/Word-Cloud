@@ -26,6 +26,22 @@ devtools::source_url(path)
 
 <div align="center">Figura 1. Nuvem de palavras no R.</div>
 
+
+<p align="justify"></p>
+
+<p align="justify">
+<a target='_blank' rel='noopener noreferrer' href='https://rpubs.com/amrofi/word_cloud_with_R_Mateus'>[1] RPubs - Text Mining e Nuvem de palavras com R.</code></a>
+
+<a target='_blank' rel='noopener noreferrer' href='https://r-graph-gallery.com/196-the-wordcloud2-library.html'>[2] The Wordcloud2 library - the R Graph Gallery.</code></a>
+
+<a target='_blank' rel='noopener noreferrer' href='http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know'>[3] Text mining and word cloud fundamentals in R. STHDA.</code></a>
+
+<a target='_blank' rel='noopener noreferrer' href='https://towardsdatascience.com/create-a-word-cloud-with-r-bde3e7422e8a'>[4] How to Generate Word Clouds in R. Towards Data Science.</code></a>
+
+<a target='_blank' rel='noopener noreferrer' href='https://cran.r-project.org/web/packages/ggwordcloud/vignettes/ggwordcloud.html'>[5] Pacote ggwordcloud: a word cloud geom for ggplot2.</code></a>
+</p>
+
+
 </br>
 
 # 2. Python
