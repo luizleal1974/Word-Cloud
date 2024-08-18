@@ -13,8 +13,15 @@ py_install("wordcloud")
 
 # 1. R
 
-<p align="justify">O arquivo</p>
-  
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.R'><code>word_cloud.R</code></a> fornece três modos distintos de construção de uma nuvem de palavras (Figura 1).</p>
+
+```{r}
+# Figura 1
+path = "https://github.com/luizleal1974/Word-Cloud/raw/main/Files/word_cloud.R"
+setwd("F:")
+devtools::source_url(path)
+```
+
 <p align="center"><img src="/Files/word_cloud_R.png" alt="Drawing"/></p>
 
 <div align="center">Figura 1. Nuvem de palavras no R.</div>
