@@ -31,7 +31,7 @@ devtools::source_url(path)
 
 <p align="justify"></p>
 
-### Referências
+## Referências
 
 <p align="justify">
 <ol>
