@@ -31,12 +31,13 @@ devtools::source_url(path)
 
 ### Referências
 
-<ol type="I">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+<p align="justify">
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
 </ol>
-
+</p>
 
 <p align="justify">
 <a target='_blank' rel='noopener noreferrer' href='https://rpubs.com/amrofi/word_cloud_with_R_Mateus'><code>[1] RPubs - Text Mining e Nuvem de palavras com R.</code></a>
