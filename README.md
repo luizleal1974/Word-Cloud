@@ -29,6 +29,8 @@ devtools::source_url(path)
 
 <p align="justify"></p>
 
+### Referências
+
 <p align="justify">
 <a target='_blank' rel='noopener noreferrer' href='https://rpubs.com/amrofi/word_cloud_with_R_Mateus'>[1] RPubs - Text Mining e Nuvem de palavras com R.</code></a>
 
