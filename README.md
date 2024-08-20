@@ -44,3 +44,40 @@ devtools::source_url(path)
 </br>
 
 # 2. Python
+
+### 2.1 Introdução
+
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> contém uma sugestão de código de programação para a construção de uma nuvem de palavras (Figura 2).</p>
+
+<p align="center"><img src="/Files/word_cloud_Python.png" alt="Drawing"/></p>
+
+<div align="center">Figura 2. Nuvem de palavras no Python.</div>
+
+
+</br>
+
+### 2.2 Manipulação de string
+
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> e o código abaixo fornecem diferentes modos de manipulação de string utilizando-se a linguagem de programação Python.</p>
+
+```{python}
+from re import sub
+
+string = "Luiz 0123456789 Henrique!@#$%&*(){}[] da/\?;:<>,.!-=+| Conceição Leal"
+string
+sub('[^a-zA-Z]+' , ' ' , string) # REMOVE CARACTERES NAO-ALFABETICOS (INCLUINDO LETRAS ACENTUADAS)
+sub('[\W\d_]+'   , ' ' , string) # REMOVE CARACTERES NAO-ALFABETICOS
+sub(r'[0-9]+'    , ' ' , string) # REMOVE NUMEROS
+
+string = "\n Luiz \n Henrique da\n  Conceição\n Leal\nEstatística"
+string
+print(string)
+string = string.replace('\n', ' ')
+string
+print(string)
+```
+
+</br>
+
+
+
