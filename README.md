@@ -13,6 +13,9 @@ py_install("wordcloud")
 
 # 1. R
 
+
+### 1.1 Pacotes
+
 <p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.R'><code>word_cloud.R</code></a> fornece três modos distintos de construção de uma nuvem de palavras (Figura 1).</p>
 
 ```{r}
@@ -29,7 +32,7 @@ devtools::source_url(path)
 
 </br>
 
-### Referências
+### 1.2 Referências
 
 <p align="justify">
 <ol>
@@ -45,7 +48,7 @@ devtools::source_url(path)
 
 # 2. Python
 
-### 2.1 Introdução
+### 2.1 Nuvem de palavras
 
 <p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> contém uma sugestão de código de programação para a construção de uma nuvem de palavras (Figura 2).</p>
 
