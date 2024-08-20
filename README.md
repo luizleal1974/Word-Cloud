@@ -54,9 +54,28 @@ devtools::source_url(path)
 <div align="center">Figura 2. Nuvem de palavras no Python.</div>
 
 
+
 </br>
 
-### 2.2 Manipulação de string
+
+### 2.2 Referências
+
+<p align="justify">
+<ol>
+<li><a target='_blank' rel='noopener noreferrer' href='https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html'><code>WordCloud documentation.</code></a></li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://medium.com/@m3redithw/wordclouds-with-python-c287887acc8b'><code>WordClouds with Python.</code></a></li>
+<li><a target='_blank' rel='noopener noreferrer' href='https://sigmoidal.ai/como-criar-uma-wordcloud-em-python/'><code>Como criar uma WordCloud em Python.</code></a></li>
+</ol>
+</p>
+
+
+</br>
+
+
+
+
+
+### 2.3 Manipulação de string
 
 <p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> e o código abaixo fornecem diferentes modos de manipulação de string utilizando-se a linguagem de programação Python.</p>
 
@@ -78,6 +97,3 @@ print(string)
 ```
 
 </br>
-
-
-
