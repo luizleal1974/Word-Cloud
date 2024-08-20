@@ -49,7 +49,7 @@ devtools::source_url(path)
 
 <p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> contém uma sugestão de código de programação para a construção de uma nuvem de palavras (Figura 2).</p>
 
-<p align="center"><img src="/Files/word_cloud_Python.png" alt="Drawing"/></p>
+<p align="center"><img src="/Files/word_cloud_Python.png" alt="Drawing" height="350" width="550"/></p>
 
 <div align="center">Figura 2. Nuvem de palavras no Python.</div>
 
