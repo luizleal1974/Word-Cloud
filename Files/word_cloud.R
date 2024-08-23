@@ -35,7 +35,7 @@ word_freq = sort(table(words[which(words %in% rm_word_list == FALSE)]), decreasi
 dfr = as.data.frame(word_freq)
 colnames(dfr) = c("word", "freq")
 rownames(dfr) = names(word_freq)
-dfr = dfr[-which(dfr$word == ""),]
+if(any(dfr$word == "")){dfr = dfr[-which(dfr$word == ""),]} else {dfr = dfr}
 head(dfr)
 
 
