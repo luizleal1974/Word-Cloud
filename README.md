@@ -68,5 +68,26 @@ string
 print(string)
 ```
 
+```{python}
+from pandas import DataFrame, to_numeric
+from statistics import mean
+
+dados = DataFrame(data = {'Grupo': ["A", "B", "C"], 'Valor': ["3,5", "4,79", "5"]})
+dados
+dados['Valor'] = dados['Valor'].str.replace(',' , '.') # Substituir separador decimal: ',' por '.'
+dados['Valor'] = to_numeric(dados['Valor'])            # Equivalente ao 'as.numeric' do R
+dados
+mean(dados['Valor'])
+
+dfr = DataFrame(data = {'3,4': ["A"], '7,82': ["B"], '6': ["C"], '2,857': ["D"]})
+dfr
+valores = dfr.columns.to_list()
+valores
+valores = to_numeric([w.replace(',' , '.') for w in valores])
+valores
+mean(valores)
+```
+Nota: A linha de comando <code>[w.replace(',' , '.') for w in valores]</code> substitui <code>','</code> por <code>'.'</code> na lista <code>valores</code>.
+
 </br>
 
