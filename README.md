@@ -49,7 +49,7 @@ devtools::source_url(path)
 
 ### 2.2 Manipulação de string
 
-<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> e o código abaixo fornecem diferentes modos de manipulação de string utilizando-se a linguagem de programação Python.</p>
+<p align="justify">O arquivo <a target='_blank' rel='noopener noreferrer' href='https://github.com/luizleal1974/Word-Cloud/blob/main/Files/word_cloud.py'><code>word_cloud.py</code></a> e os códigos abaixo fornecem diferentes modos de manipulação de string utilizando-se a linguagem de programação Python.</p>
 
 ```{python}
 from re import sub
